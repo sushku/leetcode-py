@@ -8,7 +8,7 @@ class Solution:
             else:
                 remIndexDict[rem] = i
 
-s = Solution()
+# Main
 nums = [2, 7, 11, 14]
 target = 9
-print(s.twoSum(nums, target))
+print(Solution().twoSum(nums, target))
